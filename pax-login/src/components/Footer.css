@@ -5,23 +5,36 @@
     padding-bottom: 64px;
 }
 
-.helpIcon{
-    margin-right: 12px;
-    padding: 0;
-
-    
-}
 
 .container-fluid{
-    display: flex;
-    justify-content: space-between;
+    max-width: 1344px;
+    text-align: left !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.footer-header{
+    margin-bottom:2rem !important;
+    display:flex;
+    margin-right:0;
+    margin-left: 0;
 }
+@media(min-width: 768px){
+    .footer-header {flex-wrap: wrap!important;}
+}
+
 .helpButton, .darkModeButton {
     background-color: white;
     color: black;
     border: 2px solid #e7e7e7;
   }
-  
+
+  .helpIcon{
+    margin-right: 12px;
+    padding: 0;
+
+    
+}
   button {
     background-color: #04AA6D; /* Green */
     border: none;
@@ -38,3 +51,13 @@
   }
   .helpButton:hover {background-color: #e7e7e7;}
   .darkModeButton:hover {background-color: #e7e7e7}
+
+
+
+  .links{
+   
+  }
+
+  .link-container{
+   
+  }
