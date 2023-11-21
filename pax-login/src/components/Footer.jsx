@@ -45,6 +45,25 @@ export const Footer = () => {
                       </ul>
                     </nav>
                   </div>
+
+                  <div className="level2">
+                    <p className="for-you">For Your Business</p>
+
+                    <nav className="nav-group-1">
+                      <ul className="f-y">
+                      
+                        <li className="f-y-li">
+                        <a href="#" className="li-link"> Paxful Pay</a>
+                         </li><br />
+                        <li className="f-y-li">
+                        <a href="#" className="li-link">Virtual Bitcoin Kiosk</a>
+                        </li><br />
+                        <li className="f-y-li">
+                        <a href="#" className="li-link">API Documentation</a></li><br />
+                      </ul>
+                    </nav>
+                  </div>
+
                 </div>
               </div>
             </div>
