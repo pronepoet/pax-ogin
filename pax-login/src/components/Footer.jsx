@@ -21,17 +21,27 @@ export const Footer = () => {
               <div className="link-container">
                 <div className="level1">
                   <div className="level2">
-                    <p>For You</p>
+                    <p className="for-you">For You</p>
 
-                    <nav>
-                      <ul>
-                        <li>
-                        Buy Bitcoin </li> <br />
-                        <li>Buy Tether</li><br />
-                        <li>Sell Bitcoin </li><br />
-                        <li>Sell Tether</li><br />
-                        <li> Become Vendor</li><br />
-                       <li>Paxful Wallet</li>
+                    <nav className="nav-group-1">
+                      <ul className="f-y">
+                        <li className="f-y-li">
+                          <a href="#" className="li-link">
+                          Buy Bitcoin
+                          </a>
+                         </li> <br />
+                        <li className="f-y-li">
+                        <a href="#" className="li-link"> Buy Tether</a>
+                         </li><br />
+                        <li className="f-y-li">
+                        <a href="#" className="li-link">Sell Bitcoin </a>
+                        </li><br />
+                        <li className="f-y-li">
+                        <a href="#" className="li-link">Sell Tether </a></li><br />
+                        <li className="f-y-li"> 
+                        <a href="#" className="li-link">Become Vendor</a> </li><br />
+                       <li className="f-y-li">
+                       <a href="#" className="li-link">Paxful Wallet </a></li>
                       </ul>
                     </nav>
                   </div>
