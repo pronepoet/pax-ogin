@@ -3,6 +3,8 @@
     height:490px;
     padding-top:32x;
     padding-bottom: 64px;
+    display:block;
+
 }
 
 
@@ -11,6 +13,11 @@
     text-align: left !important;
     margin-right: auto;
     margin-left: auto;
+  }
+  .container-fluid:after{
+    clear:both;
+    content: "  ";
+    display:table;
   }
 
 .footer-header{
@@ -157,3 +164,8 @@ padding: 0;
   .helpButton:hover {background-color: #e7e7e7;}
   .darkModeButton:hover {background-color: #e7e7e7}
 
+.legal{
+  margin-top:0.5 rem!important;
+width: 100%!important;
+display:flex!important;
+}
