@@ -220,4 +220,6 @@ display:flex!important;
     transition-delay: 0s;
     transition-property: color;
     will-change: color;
+    text-decoration:none!important;
+    
 }
