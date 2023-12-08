@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'; 
 export const Navbar = () => {
   return (
-    <div>
-         <nav className="navbar">
-      <ul>
+    <div className="navbar">
+      <div className="nav-cont">
+      <nav className="nav-left">
+      <ul className='nav-start'>
         <li>
           <Link to="/">Buy</Link>
         </li>
@@ -33,6 +34,18 @@ export const Navbar = () => {
       
       </ul>
     </nav>
+    <nav className='nav-cta'>
+      <ul className="nav-ul">
+        <li>
+          <a href="">Login</a>
+        </li>
+        <li>
+          <a href="">Register</a>
+        </li>
+      </ul>
+    </nav>
+      </div>
+        
     </div>
   )
 }

@@ -1,9 +1,27 @@
 .navbar {
     background-color: #FFFFFF;
     padding: 10px;
-    font-size: 14px;
-  }
+    font-size: 15px;
+    line-height:1.5;
+    font-family: Open Sans,sans-serif;
   
+  }
+  .nav-cont{
+    max-width:1344px;
+    margin: auto;
+    display:flex;
+  }
+  .nav-start{
+    margin:1rem;
+
+  }
+  .nav-cta{
+    display: block;
+  text-align: left!important;
+  }
+  .nav-ul{
+
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -23,4 +41,7 @@
   
   a:hover {
     color: #61dafb;
+  }
+  .nav-left{
+    
   }

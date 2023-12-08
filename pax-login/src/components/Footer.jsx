@@ -14,12 +14,19 @@ export const Footer = () => {
   <div className="footer-header">
     <button className="helpButton"> <span class="material-symbols-outlined">
       help</span>  FAQ & Help Center</button>
-    <button className="darkModeButton"><span class="material-symbols-outlined">Dark_mode</span>Dark theme</button>
+    <button className="darkModeButton">
+      <span class="material-symbols-outlined">Dark_mode</span>Dark theme <span className='slider'><div className="checkbox-wrapper-64">
+  <label className="switch">
+    <input type="checkbox" />
+    <span className="slider"></span>
+  </label>
+</div></span></button>
+  
   </div>
 
 
     <div className="links">
-
+    
       
       <div className="link-container">
         <div className="level1">
