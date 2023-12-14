@@ -25,27 +25,21 @@ export const Navbar = () => {
         <li>
           <Link to="/contact">Become a Vendor</Link>
         </li>
-        <li>
-          <Link to="/Login">Login</Link>
-        </li>
-        <li>
-          <Link to="/contact">Register</Link>
-        </li>
+     
       
       </ul>
     </nav>
     <nav className='nav-cta'>
       <ul className="nav-ul">
         <li>
-          <a href="">Login</a>
+          <a href="#">Login</a>
         </li>
         <li>
-          <a href="">Register</a>
+          <a href="#">Register</a>
         </li>
       </ul>
     </nav>
       </div>
-        
     </div>
   )
 }

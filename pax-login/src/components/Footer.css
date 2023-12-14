@@ -1,13 +1,15 @@
-footer{
-display:block;
+.footer-new{
+  padding-bottom: 64px;
 }
 .footer{
     background-color: #FFFFFF;
-    height:490px;
-    padding-top:32x;
+height: 508px;
     padding-bottom: 64px;
     display:block;
-
+    position: absolute;
+    bottom: 0;
+border: 1px solid;
+width: 100vw;
 }
 
 
@@ -16,6 +18,7 @@ display:block;
     text-align: left !important;
     margin-right: auto;
     margin-left: auto;
+    padding-top:32px;
   }
   .container-fluid:after{
     clear:both;
@@ -28,6 +31,7 @@ display:block;
     display:flex;
     margin-right:0;
     margin-left: 0;
+
 }
 @media(min-width: 768px){
     .footer-header {flex-wrap: wrap!important;}
@@ -64,8 +68,6 @@ display:block;
     max-width: 33.3333333333%;
 }
   }
-
-
   .level2{
 padding: 0!important;
 margin-bottom: 1.5rem!important;
@@ -158,7 +160,6 @@ padding: 0;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-   
     font-size: 16px;
     margin:auto;
     transition-duration: 0.4s;
@@ -211,7 +212,6 @@ display:flex!important;
   margin-bottom: 0.5rem!important;
   margin:0;
   padding:0;
-  
 }
 .legal-a{
   transition: color .25s ease-in-out;
@@ -222,7 +222,6 @@ display:flex!important;
     transition-property: color;
     will-change: color;
     text-decoration:none!important;
-    
 }
 .cta{
   text-align:left!important;
@@ -247,7 +246,6 @@ display:flex!important;
   margin-bottom: 0!important;
 }
 .app-btn{
- 
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -369,9 +367,6 @@ display:flex!important;
   vertical-align: middle;
   min-width: 24px;
 }
-
-
-
 
   .checkbox-wrapper-64 input[type="checkbox"] {
     visibility: hidden;

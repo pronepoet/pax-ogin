@@ -4,23 +4,33 @@
     font-size: 15px;
     line-height:1.5;
     font-family: Open Sans,sans-serif;
+    text-align: center;
+  
   
   }
   .nav-cont{
     max-width:1344px;
-    margin: auto;
+    margin:auto;
+    
+  }
+  .nav-left{
+    
     display:flex;
+    justify-content: center!important;
+    text-align: left!important;
   }
   .nav-start{
-    margin:1rem;
-
+  
+margin-top: 1.5rem;
   }
   .nav-cta{
-    display: block;
-  text-align: left!important;
+
+    text-align: right!important;
+    margin-top:0;
+    
   }
   .nav-ul{
-
+    
   }
   ul {
     list-style-type: none;

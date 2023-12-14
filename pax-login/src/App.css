@@ -36,6 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  background-color:#F7F7F7;
+  
+  width: 100vw;
+  border: 1px solid black
+}
 .container {
   height: 640px;
   width:1170px;
@@ -44,6 +50,7 @@
   margin-right:auto;
   margin-left:auto;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .container-header1{

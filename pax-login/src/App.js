@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className='main'>
       <div className="container">
         <h2 className='container-header1'>SOMETHING'S MISSING HERE </h2>
         <h3 className='container-header2'>Error 404: We can't seem to find what you're looking for</h3>
@@ -33,6 +34,8 @@ function App() {
       
         
       </div>
+      </div>
+   
 <Footer />
     </>
   );
